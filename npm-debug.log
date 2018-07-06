@@ -1,0 +1,154 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ahmermalik/.nvm/versions/node/v6.11.3/bin/node',
+1 verbose cli   '/Users/ahmermalik/.nvm/versions/node/v6.11.3/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'axios',
+1 verbose cli   'vue-axious',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData axios
+8 silly fetchPackageMetaData vue-axious
+9 silly fetchNamedPackageData axios
+10 silly mapToRegistry name axios
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'axios',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'axios',
+13 silly mapToRegistry   name: 'axios',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/axios
+15 silly fetchNamedPackageData vue-axious
+16 silly mapToRegistry name vue-axious
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'vue-axious',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'vue-axious',
+19 silly mapToRegistry   name: 'vue-axious',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/vue-axious
+21 verbose request uri https://registry.npmjs.org/vue-axious
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 10:50:20 PM
+24 verbose request id 82eb35471107c74f
+25 http request GET https://registry.npmjs.org/vue-axious
+26 verbose request uri https://registry.npmjs.org/axios
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 10:50:20 PM
+29 verbose etag W/"18ccd3b906d6eea0372ae40824214631"
+30 verbose lastModified Sat, 26 May 2018 17:51:40 GMT
+31 http request GET https://registry.npmjs.org/axios
+32 http 304 https://registry.npmjs.org/axios
+33 verbose headers { date: 'Fri, 06 Jul 2018 03:50:20 GMT',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'set-cookie': [ '__cfduid=d95888bec2c86637a85c62023998cc9ec1530849020; expires=Sat, 06-Jul-19 03:50:20 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'cf-cache-status': 'HIT',
+33 verbose headers   'cf-ray': '435f1b49abba2012-DFW',
+33 verbose headers   etag: '"18ccd3b906d6eea0372ae40824214631"',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   'last-modified': 'Sat, 26 May 2018 17:51:40 GMT',
+33 verbose headers   vary: 'accept-encoding, accept',
+33 verbose headers   server: 'cloudflare' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Fri, 06 Jul 2018 03:50:20 GMT',
+34 silly get     connection: 'keep-alive',
+34 silly get     'set-cookie': [ '__cfduid=d95888bec2c86637a85c62023998cc9ec1530849020; expires=Sat, 06-Jul-19 03:50:20 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     'cf-cache-status': 'HIT',
+34 silly get     'cf-ray': '435f1b49abba2012-DFW',
+34 silly get     etag: '"18ccd3b906d6eea0372ae40824214631"',
+34 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 silly get     'last-modified': 'Sat, 26 May 2018 17:51:40 GMT',
+34 silly get     vary: 'accept-encoding, accept',
+34 silly get     server: 'cloudflare' } ]
+35 verbose etag https://registry.npmjs.org/axios from cache
+36 verbose get saving axios to /Users/ahmermalik/.npm/registry.npmjs.org/axios/.cache.json
+37 verbose correctMkdir /Users/ahmermalik/.npm correctMkdir not in flight; initializing
+38 http 404 https://registry.npmjs.org/vue-axious
+39 verbose headers { date: 'Fri, 06 Jul 2018 03:50:20 GMT',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'content-length': '21',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'set-cookie': [ '__cfduid=dc8c62672f5adff15529b996859b3c90e1530849020; expires=Sat, 06-Jul-19 03:50:20 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   'cf-cache-status': 'MISS',
+39 verbose headers   'cf-ray': '435f1b49ad869b7b-DFW',
+39 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+39 verbose headers   vary: 'accept-encoding, accept',
+39 verbose headers   server: 'cloudflare' }
+40 silly get cb [ 404,
+40 silly get   { date: 'Fri, 06 Jul 2018 03:50:20 GMT',
+40 silly get     'content-type': 'application/json',
+40 silly get     'content-length': '21',
+40 silly get     connection: 'keep-alive',
+40 silly get     'set-cookie': [ '__cfduid=dc8c62672f5adff15529b996859b3c90e1530849020; expires=Sat, 06-Jul-19 03:50:20 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     'cf-cache-status': 'MISS',
+40 silly get     'cf-ray': '435f1b49ad869b7b-DFW',
+40 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+40 silly get     vary: 'accept-encoding, accept',
+40 silly get     server: 'cloudflare' } ]
+41 silly fetchPackageMetaData Error: Not found : vue-axious
+41 silly fetchPackageMetaData     at makeError (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+41 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+41 silly fetchPackageMetaData     at Request._callback (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+41 silly fetchPackageMetaData     at Request.self.callback (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:187:22)
+41 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+41 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+41 silly fetchPackageMetaData     at Request.<anonymous> (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+41 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+41 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+41 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 silly fetchPackageMetaData  error for vue-axious { Error: Not found : vue-axious
+41 silly fetchPackageMetaData     at makeError (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+41 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+41 silly fetchPackageMetaData     at Request._callback (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+41 silly fetchPackageMetaData     at Request.self.callback (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:187:22)
+41 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+41 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+41 silly fetchPackageMetaData     at Request.<anonymous> (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+41 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+41 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+41 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'vue-axious', statusCode: 404, code: 'E404' }
+42 silly rollbackFailedOptional Starting
+43 silly rollbackFailedOptional Finishing
+44 silly runTopLevelLifecycles Finishing
+45 silly install printInstalled
+46 verbose stack Error: Not found : vue-axious
+46 verbose stack     at makeError (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+46 verbose stack     at CachingRegistryClient.<anonymous> (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+46 verbose stack     at Request._callback (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+46 verbose stack     at Request.self.callback (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:187:22)
+46 verbose stack     at emitTwo (events.js:106:13)
+46 verbose stack     at Request.emit (events.js:191:7)
+46 verbose stack     at Request.<anonymous> (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+46 verbose stack     at emitOne (events.js:96:13)
+46 verbose stack     at Request.emit (events.js:188:7)
+46 verbose stack     at IncomingMessage.<anonymous> (/Users/ahmermalik/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:969:12)
+47 verbose statusCode 404
+48 verbose pkgid vue-axious
+49 verbose cwd /Users/ahmermalik/Desktop/WebDevelopment/21.Vuejs
+50 error Darwin 17.6.0
+51 error argv "/Users/ahmermalik/.nvm/versions/node/v6.11.3/bin/node" "/Users/ahmermalik/.nvm/versions/node/v6.11.3/bin/npm" "install" "axios" "vue-axious" "--save"
+52 error node v6.11.3
+53 error npm  v3.10.10
+54 error code E404
+55 error 404 Not found : vue-axious
+56 error 404
+57 error 404 'vue-axious' is not in the npm registry.
+58 error 404 You should bug the author to publish it (or use the name yourself!)
+59 error 404 Note that you can also install from a
+60 error 404 tarball, folder, http url, or git url.
+61 verbose exit [ 1, true ]
