@@ -4,11 +4,12 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">Search</span>
             </div>
+            <!--Keyup.prevent"search" prevents continuous search from taking place as the user types if we presses the up arrow -->
+            <!--v-model directive to create two-way data bindings on form input "query" and textarea elements. It automatically picks the correct way to update the element based on the input type.-->
             <input type="text"
                    class="form-control col-md-6"
                    @keyup.prevent="search"
                    v-model="query"/>
-
         </div>
     </div>
 </template>
