@@ -20,3 +20,5 @@ brew services start elasticsearch
 Initialize Vue.js
 -----------------
 npm run serve
+
+
