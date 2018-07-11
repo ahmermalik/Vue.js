@@ -3,6 +3,7 @@ const elasticsearch = require('elasticsearch');
 const fs = require('fs');
 const console = require('tracer').console();
 
+//instantiate a new elasticsearch client
 const client = new elasticsearch.Client({
     hosts: ['http://localhost:9200']
 });
