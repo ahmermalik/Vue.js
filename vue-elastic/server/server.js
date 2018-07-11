@@ -4,8 +4,10 @@ const express = require('express');
 const app = express();
 const elasticsearch = require('elasticsearch');
 const fs = require('fs');
+const console = require('tracer').console();
 
 const PORT = 5000;
+
 
 
 const client = new elasticsearch.Client({
@@ -20,6 +22,7 @@ client.ping({ requestTimeout: 30000 }, function(error) {
         console.log('Elasticsearch is responding as expected!');
     }
 });
+
 
 app.listen(PORT, function() {
     console.log('Listening on port: ',PORT);

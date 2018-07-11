@@ -16,6 +16,7 @@
     "express": "^4.16.3",
     "jquery": "^1.9.1",
     "popper.js": "^1.14.3",
+    "tracer": "^0.9.1",
     "vue": "^2.5.16",
     "vue-axios": "^2.1.2"
   },
@@ -23,6 +24,7 @@
     "@vue/cli-plugin-babel": "^3.0.0-beta.15",
     "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
     "@vue/cli-service": "^3.0.0-beta.15",
+    "nodemon": "^1.18.1",
     "vue-template-compiler": "^2.5.16"
   },
   "eslintConfig": {
