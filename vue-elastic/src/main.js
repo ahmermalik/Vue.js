@@ -7,7 +7,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 Vue.config.productionTip = false
 
 //Use plugins by calling the Vue.use() global method, you can also pass in options.
-Vue.use(axios, VueAxios);
+Vue.use(VueAxios, axios);
 
 new Vue({
   render: h => h(App)

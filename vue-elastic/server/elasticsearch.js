@@ -10,7 +10,7 @@ const client = new elasticsearch.Client({
 
 client.indices.create({
     index: 'vue-elastic'
-}, function (error, response, status) {
+}, function (error, response) {
     if (error) {
         console.log(error);
     } else {
