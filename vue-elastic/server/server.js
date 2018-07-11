@@ -18,6 +18,7 @@ const client = new elasticsearch.Client({
     log: 'error'
 });
 
+//clogs if everything in data.json was queried, and if not, how many items had errors.
 client.ping({requestTimeout: 30000}, function (error) {
     if (error) {
         console.error('Elasticsearch is not responding as expected!');
@@ -27,6 +28,7 @@ client.ping({requestTimeout: 30000}, function (error) {
 });
 
 app.get('/search', function (req, res) {
+
 
     let body = {
         size: 100,
